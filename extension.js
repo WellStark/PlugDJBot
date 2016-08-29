@@ -90,7 +90,7 @@
       afkRankCheck: "ambassador",
       motdEnabled: true,
       motdInterval: 5,
-      motd: "Temporary Message of the Day",
+      motd: "Bebendo limonada. É mesmo? É nada.",
       filterChat: false,
       etaRestriction: false,
       welcome: true,
@@ -102,7 +102,7 @@
       website: null,
       intervalMessages: [],
       messageInterval: 0,
-      songstats: true,
+      songstats: false,
       commandLiteral: "!",
       blacklists: {
         NSFW: "https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json",
