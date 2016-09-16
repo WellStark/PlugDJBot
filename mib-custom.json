@@ -2,7 +2,7 @@
    "room": "VKings",
    "author": "Shadoso <3",
    "icon": null,
-   "css": "https://rawgit.com/Shadow-Slayer/mib/master/mib.css",
+   "css": "https://rawgit.com/WellStark/PlugDJBot/master/mib.css",
    "rules": {
       "allowAutorespond": true,
       "allowAutowoot": true,
