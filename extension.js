@@ -48,8 +48,8 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
       botName: "emoBot",
       language: "pt-BR",
-      chatLink: "https://rawgit.com/WellStark/PlugDJBot/master/lang/pt-BR.json",
-      scriptLink: "https://rawgit.com/WellStark/PlugDJBot/master/extension.js",
+      chatLink: "https://cdn.jsdelivr.net/gh/WellStark/PlugDJBot@master/lang/pt-BR.json",
+      scriptLink: "https://cdn.jsdelivr.net/gh/WellStark/PlugDJBot@master/extension.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 20, // 1-200
       startupVolume: 100, // 0-100
@@ -105,13 +105,13 @@
       songstats: false,
       commandLiteral: "!",
       blacklists: {
-        NSFW: "https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json",
-        OP: "https://rawgit.com/basicBot/custom/master/blacklists/OPlist.json",
-        BANNED: "https://rawgit.com/basicBot/custom/master/blacklists/BANNEDlist.json"
+        NSFW: "https://cdn.jsdelivr.net/gh/basicBot/custom@master/blacklists/NSFWlist.json",
+        OP: "https://cdn.jsdelivr.net/gh/basicBot/custom@master/blacklists/OPlist.json",
+        BANNED: "https://cdn.jsdelivr.net/gh/basicBot/custom@master/blacklists/BANNEDlist.json"
       }
     }));
 
     // Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/basicBot/source/master/basicBot.js", extend);
+    $.getScript("https://cdn.jsdelivr.net/gh/basicBot/source@master/basicBot.js", extend);
 
 }).call(this);
